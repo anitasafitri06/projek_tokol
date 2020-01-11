@@ -103,7 +103,7 @@
 	<div id="page-title">
 		<div id="page-title-inner">
 			<div class="container">
-				<h2><i class="ico-stats ico-white"></i>Produk Kami</h2>
+				<h2>Produk Kami</h2>
 			</div>
 		</div>	
 
