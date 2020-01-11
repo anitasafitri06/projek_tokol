@@ -150,7 +150,11 @@
 		<!--start: Container -->
     	<div class="container"> 
         <h3>Tentang DMSNCLOTH</h3></br>
-DMSNCLOTH adalah toko online yang bergerak di bidang fasion, sasaran kami semua kalangan baik muda maupun tua, mulai dari anak - anak dan orang dewasa.
+		<font size="4">Semua brand pasti berawal dari mimpi, begitu juga dengan kami. Mimpi kami cukup besar: menjadi brand lokal yang keren, hebat, dan disegani. Mencapai mimpi tersebut bukan hal yang mudah. Jadi, demi mewujudkan mimpi tersebut kami berusaha semaksimal mungkin untuk mencapai yang terbaik, sesuai dengan Tagline kami yaitu "BRIGHT FUTURE" 
+.</font><br>
+							</p>
+<img src="img/home/dmsn.JPG"style="display: block; margin: auto;">
+							</p>		 
         </div>
 		</div>
 		<!--end: Container-->
