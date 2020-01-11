@@ -305,7 +305,7 @@ require_once("koneksi.php");
 					
 					<h3>Alamat Kami</h3> 
 					<p> 
-					Jl. A. Yani no.1 Kraksaan - Probolinggo
+					Jl. A.Yani No. 19 Kec.Kraksaan - Kab.Probolinggo
 					</p>
 					
                     </div>
