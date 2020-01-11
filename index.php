@@ -250,7 +250,7 @@ require_once("koneksi.php");
 							<i class="ico-ipad ico-color circle-color big"></i>
 							<div class="icons-box-vert-info">
 								<h3>Berbelanja Dengan Gadget</h3>
-								<p>Anda bisa memesan produk kami melalui gadget kesayangan anda, belanja di DMSN Cloth cikarang praktis dan mudah.</p>
+								<p>Anda bisa memesan produk kami melalui gadget kesayangan anda, belanja di DMSN Cloth dengan praktis dan mudah.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -303,7 +303,10 @@ require_once("koneksi.php");
 				<!-- start: Photo Stream -->
 				<div class="span3">
 					
-					<h3>Alamat Kami</h3>
+					<h3>Alamat Kami</h3> 
+					<p> 
+					Jl. A. Yani no.1 Kraksaan - Probolinggo
+					</p>
 					
                     </div>
 				<!-- end: Photo Stream -->
@@ -400,7 +403,7 @@ require_once("koneksi.php");
 		<div class="container">
 		
 			<p>
-				Copyright &copy; DMSNCLOTH 2019 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster
+				Copyright &copy; DMSNCLOTH 2019
 			</p>
 	
 		</div>
