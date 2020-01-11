@@ -68,7 +68,7 @@ require_once("koneksi.php");
 			            		<span class="icon-bar"></span>
 			          		</a>
 			          		<div class="nav-collapse collapse">
-			            		<ul class="nav" style="height: auto; width: auto">
+			            		<ul class="nav" style="height: auto; width: auto; padding-bottom:50px">
 			              			<li class="active"><a href="index.php">Home</a></li>
 									  <li><a href="tentang.php">Tentang Kami</a></li>
 			              			<li><a href="produk.php">Produk Kami</a></li>
