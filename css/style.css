@@ -1392,7 +1392,7 @@ form#newsletter input[type=submit] {
 .btn-danger.active,
 .btn-danger.disabled,
 .btn-danger[disabled] {
-  background-color: #ee5f5b}
+  background-color: #747474}
 
 .btn-danger:active,
 .btn-danger.active {
@@ -1419,7 +1419,7 @@ form#newsletter input[type=submit] {
 .btn-success.active,
 .btn-success.disabled,
 .btn-success[disabled] {
-  background-color: #89c236;
+  background-color: #000000;
 }
 
 .btn-success:active,
