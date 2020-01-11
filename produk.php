@@ -271,8 +271,7 @@
 		<div class="container">
 		
 			<p>
-				Copyright &copy; DMSNCLOTH 2019 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster
-			</p>
+				Copyright &copy; DMSNCLOTH 2019</p>
 	
 		</div>
 		<!-- end: Container  -->
