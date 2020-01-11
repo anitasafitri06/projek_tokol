@@ -491,27 +491,27 @@ html[xmlns] .slides {display: block;}
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
-	-webkit-box-shadow: 0px 0px 0px 3px #89c236;
-	   -moz-box-shadow: 0px 0px 0px 3px #89c236;
-		    box-shadow: 0px 0px 0px 3px #89c236;
+	-webkit-box-shadow: 0px 0px 0px 3px #000000;
+	   -moz-box-shadow: 0px 0px 0px 3px #000000;
+		    box-shadow: 0px 0px 0px 3px #000000;
 	margin: 0 auto;
 	opacity: 1;
 }
 
 .circle-color-full {
-	background-color: #89c236;
+	background-color: #000000;
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
-	-webkit-box-shadow: 0px 0px 0px 3px #89c236;
-	   -moz-box-shadow: 0px 0px 0px 3px #89c236;
-		    box-shadow: 0px 0px 0px 3px #89c236;
+	-webkit-box-shadow: 0px 0px 0px 3px #000000;
+	   -moz-box-shadow: 0px 0px 0px 3px #000000;
+		    box-shadow: 0px 0px 0px 3px #000000;
 	margin: 0 auto;
 	opacity: 1;
 }
 
 .big-color {
-	border: 20px solid #89c236 !important;
+	border: 20px solid #000000 !important;
 }
 
 
