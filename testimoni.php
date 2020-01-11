@@ -223,7 +223,9 @@ echo "</table>";
 				<div class="span3">
 					
 					<h3>Alamat Kami</h3>
-					
+					<p>
+					Jl. A.Yani No. 19 Kec.Kraksaan - Kab.Probolinggo
+					<p>
                     </div>
 				<!-- end: Photo Stream -->
 
