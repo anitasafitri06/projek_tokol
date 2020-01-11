@@ -10,7 +10,7 @@
 	<title>DMSNCLOTH | Katalog Distro Mahasiswa Jember</title> 
 	<meta name="description" content="Distro, cikarang, terlengkap, information, technology, jababeka, baru, murah"/>
 	<meta name="keywords" content="Kaos, Murah" />
-	<meta name="author" content="Nuzul"/>
+	<meta name="author" content="Miftah"/>
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -328,8 +328,7 @@
 		<div class="container">
 		
 			<p>
-				Copyright &copy; DMSNCLOTH 2019 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster
-			</p>
+				Copyright &copy; DMSNCLOTH 2019 </p>
 	
 		</div>
 		<!-- end: Container  -->
