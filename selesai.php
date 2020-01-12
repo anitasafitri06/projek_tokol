@@ -50,7 +50,7 @@
 					
 				<!--start: Logo -->
 				<div class="logo span5">
-					<a class="brand" href="#"><img src="img/logo2.png" alt="Logo"></a>
+					<a class="brand" href="#"><img src="img/dmsn.jpg" alt="Logo"></a>
 				</div>
 				<!--end: Logo -->
 					
@@ -63,7 +63,7 @@
 			            		<span class="icon-bar"></span>
 			          		</a>
 			          		<div class="nav-collapse collapse">
-			            		<ul class="nav" style="height: auto; width: auto">
+			            		<ul class="nav" style="height: auto; width: auto; padding-bottom: 50px">
 			              			<li><a href="index.php">Home</a></li>
 									<li><a href="tentang.php">Tentang Kami</a></li>
 			              			<li><a href="produk.php">Produk Kami</a></li>
