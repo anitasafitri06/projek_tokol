@@ -106,19 +106,19 @@ require_once("koneksi.php");
 		<div id="da-slider" class="da-slider">
 			<div class="da-slide">
 				<h2>T-Shirt</h2>
-				<p>Kami menyediakan kaos sport dan casual yang nyaman anda kenakan setiasp hari juga update dengan perkermbangan mode di era sekarang ini.</p>
+				<p><b>Kami menyediakan kaos sport dan casual yang nyaman anda kenakan setiasp hari juga update dengan perkermbangan mode di era sekarang ini.</b></p>
 				<a href="#" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/16.png" width="200" alt="image01" /></div>
 			</div>
 			<div class="da-slide">
 				<h2>Hoodie</h2>
-				<p>Kami memiliki banyak koleksi jacket dan sweater, mulai dari rider jacket hingga casual jacket dan juga casual sweater yang cocok dipakai sehari hari.</p>
+				<p><b>Kami memiliki banyak koleksi jacket dan sweater, mulai dari rider jacket hingga casual jacket dan juga casual sweater yang cocok dipakai sehari hari.</b></p>
 				<a href="#" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/3.png" width="300" alt="image02" /></div>
 			</div>
 			<div class="da-slide">
 				<h2>Hat</h2>
-				<p>Kami menerima pembuatan kaos custom sesuai dengan design keinginan anda dengan harga yang bisa di sesuaikan dengan kebutuhan anda.</p>
+				<p><b>Kami menerima pembuatan kaos custom sesuai dengan design keinginan anda dengan harga yang bisa di sesuaikan dengan kebutuhan anda.</b></p>
 				<a href="#" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/11.png" width="300" alt="image04" /></div>
 			</div>
