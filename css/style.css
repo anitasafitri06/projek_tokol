@@ -124,7 +124,7 @@ header {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-	border-top:4px solid #89c236;
+	border-top:4px solid #666;
   	background: black !important;		
   	color: #fff;
 }
