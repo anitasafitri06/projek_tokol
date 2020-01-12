@@ -1317,12 +1317,12 @@ form#newsletter input[type=submit] {
 .btn-primary {
   background-color: #006dcc;
   color: #ffffff;
-  background-image: -moz-linear-gradient(top, #89c236, #89c236);
-  background-image: -ms-linear-gradient(top, #89c236, #89c236);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#89c236), to(#89c236));
-  background-image: -webkit-linear-gradient(top, #89c236, #89c236);
-  background-image: -o-linear-gradient(top, #89c236, #89c236);
-  background-image: linear-gradient(top, #89c236, #89c236);
+  background-image: -moz-linear-gradient(top, #4e0303, #4e0303);
+  background-image: -ms-linear-gradient(top, #4e0303, #4e0303);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4e0303), to(#4e0303));
+  background-image: -webkit-linear-gradient(top, #4e0303, #4e0303);
+  background-image: -o-linear-gradient(top, #4e0303, #4e0303);
+  background-image: linear-gradient(top, #4e0303, #4e0303);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'89c236, endColorstr='#'89c236, GradientType=0);
   border-color: #0044cc #0044cc #002a80;
@@ -1335,7 +1335,7 @@ form#newsletter input[type=submit] {
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #89c236;
+  background-color: #4e0303;
 }
 
 .btn-primary:active,
