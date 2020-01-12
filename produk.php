@@ -103,7 +103,7 @@
 	<div id="page-title">
 		<div id="page-title-inner">
 			<div class="container">
-				<h2><i class="ico-stats ico-white"></i>Produk Kami</h2>
+				<h2>Produk Kami</h2>
 			</div>
 		</div>	
 
@@ -274,8 +274,7 @@
 		<div class="container">
 		
 			<p>
-				Copyright &copy; DMSNCLOTH 2019 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster
-			</p>
+				Copyright &copy; DMSNCLOTH 2019</p>
 	
 		</div>
 		<!-- end: Container  -->

@@ -10,7 +10,7 @@
 	<title>DMSNCLOTH | Katalog Distro Mahasiswa Jember</title> 
 	<meta name="description" content="Distro, cikarang, terlengkap, information, technology, jababeka, baru, murah"/>
 	<meta name="keywords" content="Kaos, Murah" />
-	<meta name="author" content="Nuzul"/>
+	<meta name="author" content="Miftah"/>
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -107,7 +107,7 @@
 			<!-- start: Container -->
 			<div class="container">
 
-				<h2><i class="ico-stats ico-white"></i>Produk Detail Produk</h2>
+				<h2>Produk Detail Produk</h2>
 
 			</div>
 			<!-- end: Container  -->
@@ -212,7 +212,8 @@ $data  = mysqli_fetch_array($query);
 				<div class="span3">
 					
 					<h3>Alamat Kami</h3>
-					
+					<p> Jl. A.Yani No. 19 Kec.Kraksaan - Kab.Probolinggo
+					</p>
                     </div>
 				<!-- end: Photo Stream -->
 
@@ -308,8 +309,7 @@ $data  = mysqli_fetch_array($query);
 		<div class="container">
 		
 			<p>
-				Copyright &copy; DMSNCLOTH 2019 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Bootstrap Themes</a> designed by BootstrapMaster
-			</p>
+				Copyright &copy; DMSNCLOTH 2019 </p>
 	
 		</div>
 		<!-- end: Container  -->
