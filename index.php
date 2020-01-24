@@ -79,11 +79,11 @@ require_once("koneksi.php");
 									foreach ($_SESSION['items'] as $key => $val) {
 										$query = mysqli_query($koneksi, "SELECT br_id, br_nm, br_hrg FROM barang WHERE br_id = '$key'");
 										$data = mysqli_fetch_array($query);
+									}
 									?>
-                                    <li><a href="detail.php">Keranjang (<?php echo number_format($val); ?>)</a></li>
+                                    <li><a href="detail.php">Keranjang (<?= array_sum($_SESSION['items']); ?>)</a></li>
 								<?php
 									}
-								}
 								?>
 									<li><a href="status.php">Cek Status</a></li>
 			            		</ul>
@@ -107,19 +107,19 @@ require_once("koneksi.php");
 			<div class="da-slide">
 				<h2>T-Shirt</h2>
 				<p><b>Kami menyediakan kaos sport dan casual yang nyaman anda kenakan setiasp hari juga update dengan perkermbangan mode di era sekarang ini.</b></p>
-				<a href="#" class="da-link">Lihat Produk</a>
+				<a href="produk.php" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/16.png" width="200" alt="image01" /></div>
 			</div>
 			<div class="da-slide">
 				<h2>Hoodie</h2>
 				<p><b>Kami memiliki banyak koleksi jacket dan sweater, mulai dari rider jacket hingga casual jacket dan juga casual sweater yang cocok dipakai sehari hari.</b></p>
-				<a href="#" class="da-link">Lihat Produk</a>
+				<a href="produk.php" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/3.png" width="300" alt="image02" /></div>
 			</div>
 			<div class="da-slide">
 				<h2>Hat</h2>
 				<p><b>Kami menerima pembuatan kaos custom sesuai dengan design keinginan anda dengan harga yang bisa di sesuaikan dengan kebutuhan anda.</b></p>
-				<a href="#" class="da-link">Lihat Produk</a>
+				<a href="produk.php" class="da-link">Lihat Produk</a>
 				<div class="da-img"><img src="img/Hasil/11.png" width="300" alt="image04" /></div>
 			</div>
 			<nav class="da-arrows">

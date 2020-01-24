@@ -104,11 +104,11 @@
 									foreach ($_SESSION['items'] as $key => $val) {
 										$query = mysqli_query($koneksi, "SELECT br_id, br_nm, br_hrg FROM barang WHERE br_id = '$key'");
 										$data = mysqli_fetch_array($query);
+									}
 									?>
-                                    <li><a href="detail.php">Keranjang (<?php echo number_format($val); ?>)</a></li>
+                                    <li><a href="detail.php">Keranjang (<?= array_sum($_SESSION['items']); ?>)</a></li>
 								<?php
 									}
-								}
 								?>
 									<li><a href="status.php">Cek Status</a></li>
 			            		</ul>

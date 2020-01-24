@@ -74,11 +74,11 @@
 									foreach ($_SESSION['items'] as $key => $val) {
 										$query = mysqli_query($koneksi, "SELECT br_id, br_nm, br_hrg FROM barang WHERE br_id = '$key'");
 										$data = mysqli_fetch_array($query);
+									}
 									?>
-                                    <li><a href="detail.php">Keranjang (<?php echo number_format($val); ?>)</a></li>
+                                    <li><a href="detail.php">Keranjang (<?= array_sum($_SESSION['items']); ?>)</a></li>
 								<?php
 									}
-								}
 								?>
 									<li><a href="status.php">Cek Status</a></li>
 			            		</ul>
@@ -147,7 +147,7 @@
 					$tgl_pesan = date('d-m-Y h:i:s');
 					$simpan = mysqli_query($koneksi, "INSERT INTO orders (invoice,nama_barang,email,nama,no_telp,alamat,kode_pos,kota,biaya,tgl_pesan,status_pesanan) VALUES ('$invoice','$barang','$email','$nama_lengkap','$telepon','$alamat','$kodepos','$kota','$total','$tgl_pesan','Menunggu Pembayaran')");
 					if($simpan == true) {
-						echo "<div class='alert alert-success'><b>Berhasil</b>! Silahkan lakukan pembayaran melalui kontak dibawah ini untuk konfirmasi pembayaran <a href='https://wa.me/628561333111?text=Saya%20ingin%20konfirmasi%20pembayaran%20invoice%20$invoice'>disini</a></div>";
+						echo "<div class='alert alert-success'><b>Berhasil</b>! Silahkan lakukan pembayaran melalui kontak dibawah ini untuk konfirmasi pembayaran <a href='https://wa.me/6282324377435?text=Saya%20ingin%20konfirmasi%20pembayaran%20invoice%20$invoice'>disini</a></div>";
 					} else {
 						echo "<div class='alert alert-danger'><b>Gagal</b>! Error Sistem</div>";
 					}

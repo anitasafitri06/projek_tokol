@@ -73,11 +73,11 @@
 									foreach ($_SESSION['items'] as $key => $val) {
 										$query = mysqli_query($koneksi, "SELECT br_id, br_nm, br_hrg FROM barang WHERE br_id = '$key'");
 										$data = mysqli_fetch_array($query);
+									}
 									?>
-                                    <li><a href="detail.php">Keranjang (<?php echo number_format($val); ?>)</a></li>
+                                    <li><a href="detail.php">Keranjang (<?= array_sum($_SESSION['items']); ?>)</a></li>
 								<?php
 									}
-								}
 								?>
 									<li><a href="detail.php">Cek Status</a></li>
 			            		</ul>
@@ -185,7 +185,12 @@
 				<div class="span3">
 					
 					<h3>Alamat Kami</h3>
-					
+					<p>
+					Jl. A.Yani No. 19 Kec.Kraksaan - Kab.Probolinggo
+					<p>
+					<p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2760126756853!2d113.40749221450861!3d-7.76052467911379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd70124c80fcd47%3A0x571b45594eff89d6!2sHOUSE%20OF%20DMSNCLOTH!5e0!3m2!1sid!2sid!4v1578803791255!5m2!1sid!2sid" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</p>
                     </div>
 				<!-- end: Photo Stream -->
 

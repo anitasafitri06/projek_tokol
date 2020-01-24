@@ -99,8 +99,8 @@ require '../koneksi.php';
           <button class="btn btn-primary btn-block" type="submit" name="reset">Reset Password</button>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="register.html">Register an Account</a>
-          <a class="d-block small" href="login.html">Login Page</a>
+          <a class="d-block small mt-3" href="register.php">Register an Account</a>
+          <a class="d-block small" href="login.php">Login Page</a>
         </div>
       </div>
     </div>

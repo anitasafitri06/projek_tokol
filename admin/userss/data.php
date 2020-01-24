@@ -48,12 +48,12 @@ if (isset($_SESSION['user'])) {
 					}  
 		} else if (isset($_POST['delete'])) {
 		    $post_id = $_POST['id'];
-			$checkdb_user = mysqli_query($db, "SELECT * FROM users WHERE id = '$post_id'");
+			$checkdb_user = mysqli_query($db, "SELECT * FROM barang WHERE br_id = '$post_id'");
 			if (mysqli_num_rows($checkdb_user) == 0) {
 				$msg_type = "error";
 				$msg_content = "<b>Gagal:</b> Data tidak ditemukan.";
 			} else {
-				$delete_user = mysqli_query($db, "DELETE FROM users WHERE id = '$post_id'");
+				$delete_user = mysqli_query($db, "DELETE FROM barang WHERE br_id = '$post_id'");
 				if ($delete_user == TRUE) {
 					$msg_type = "success";
 					$msg_content = "<b>Berhasil:</b> Data <b>$post_id</b> dihapus.";
@@ -83,7 +83,7 @@ if (isset($_SESSION['user'])) {
 											} else if ($msg_type == "error") {
 											?>
 											<div class="alert alert-danger">
-												<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+												<a href="admin/users/data.php" class="close" data-dismiss="alert" aria-label="close">×</a>
 												<i class="fa fa-times-circle"></i>
 												<?php echo $msg_content; ?>
 											</div>
