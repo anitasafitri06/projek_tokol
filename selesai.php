@@ -147,7 +147,11 @@
 					$tgl_pesan = date('d-m-Y h:i:s');
 					$simpan = mysqli_query($koneksi, "INSERT INTO orders (invoice,nama_barang,email,nama,no_telp,alamat,kode_pos,kota,biaya,tgl_pesan,status_pesanan) VALUES ('$invoice','$barang','$email','$nama_lengkap','$telepon','$alamat','$kodepos','$kota','$total','$tgl_pesan','Menunggu Pembayaran')");
 					if($simpan == true) {
+<<<<<<< HEAD
 						echo "<div class='alert alert-success'><b>Berhasil</b>! Silahkan lakukan pembayaran melalui kontak dibawah ini untuk konfirmasi pembayaran <a href='https://wa.me/6282324377435?text=Saya%20ingin%20konfirmasi%20pembayaran%20invoice%20$invoice'>disini</a></div>";
+=======
+						echo "<div class='alert alert-success'><b>Berhasil</b>! Silahkan lakukan pembayaran melalui kontak dibawah ini untuk konfirmasi pembayaran <a href='https://wa.me/6289697269713?text=Saya%20ingin%20konfirmasi%20pembayaran%20invoice%20$invoice'>disini</a></div>";
+>>>>>>> 9d4f3e2064c96c14f126d11e7f02b6aa22f670d3
 					} else {
 						echo "<div class='alert alert-danger'><b>Gagal</b>! Error Sistem</div>";
 					}
